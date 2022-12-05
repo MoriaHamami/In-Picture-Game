@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(9, 52, 145);
+}
+
+body {
+    background-color: lightblue;
+}
+
+.box {
+    background-color: rgb(171, 171, 231);
+    border: solid rgb(26, 26, 91);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box button {
+    background-color: rgb(217, 160, 205);
+    border: 2px solid rgb(112, 18, 101);
+    color: rgb(131, 15, 87);
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 5%;
+    font-size: 20px
+}
+
+.box button:hover {
+    background-color:rgb(255, 200, 229);
+    cursor: pointer;
+}
+
+.host {
+    border: solid black 7px;
+    width: 30%;
+}
+
+.question {
+    width: 26%;
+    padding-right: 20%;
+    padding-left: 10%;
+}
+
+.top button{
+    background-color: rgb(108, 184, 209);
+    border: 2px solid rgb(18, 73, 112);
+    color: rgb(5, 43, 70);
+    padding: 2px;
+    margin-left: 20px;
+    font-size: 20px
+}
+
+.top button:hover {
+    background-color:rgb(166, 204, 225);
+    cursor: pointer;
+}
+
+.modal {
+    text-align: center;
+    font-size: 600%;
+    color: rgb(33, 136, 27);
+}
+
+.answers {
+    height: 20%; 
+    display: none;
+}

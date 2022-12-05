@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Picture Trivia</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <h1>What is in the Picture</h1>
+
+    <div class="top">
+        <button class="restartBtn" onclick="onStartGame(this)">Restart</button>
+        <button class="startBtn" onclick="onStartGame(this)">Start Game</button>
+        <span class="modal">You win!</span>
+    </div>
+
+    <div class="box">
+        <img class="question" />
+        <img class="host" src="img/host.jpeg" />
+        <div class="answers">
+            <button class="ans0" onclick="onClickedAns0(this)"></button>
+            <button class="ans1" onclick="onClickedAns1(this)"></button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
